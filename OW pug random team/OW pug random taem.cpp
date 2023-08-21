@@ -37,8 +37,10 @@ int main() {
 
 	for (int i = 0; i < 10; i++) {
 		if (((rng(seed) * rng(seed)) % 50) < 25) {
-			if (team1_cur == 5)
+			if (team1_cur == 5) {
+				i--;
 				continue;
+			}
 			team1[team1_cur] = player[i];
 			team1_cur++;
 		}
@@ -53,4 +55,5 @@ int main() {
 	}
 
 	teams_out(team1, team2);
+	system("pause");
 }
