@@ -36,7 +36,7 @@ int main() {
 	}
 
 	for (int i = 0; i < 10; i++) {
-		if (((rng() * rng()) % 50) < 25) {
+		if ((rng() % 50) < 25) {
 			if (team1_cur == 5) {
 				i--;
 				continue;
