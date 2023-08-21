@@ -19,7 +19,7 @@ string input_player(int player_number) {
 	return player_name;
 }
 
-int rng(unsigned int seed) {
+int rng() {
 	int num;
 	num = (rand() % 50) + 1;
 	return num;
@@ -36,7 +36,7 @@ int main() {
 	}
 
 	for (int i = 0; i < 10; i++) {
-		if (((rng(seed) * rng(seed)) % 50) < 25) {
+		if (((rng() * rng()) % 50) < 25) {
 			if (team1_cur == 5) {
 				i--;
 				continue;
