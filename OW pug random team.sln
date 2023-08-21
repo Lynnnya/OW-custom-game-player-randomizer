@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OW pug random team", "OW pug random team\OW pug random team.vcxproj", "{F3C9E944-A992-435A-9927-2A3BE5BB328E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C9E944-A992-435A-9927-2A3BE5BB328E}.Debug|x64.ActiveCfg = Debug|x64
+		{F3C9E944-A992-435A-9927-2A3BE5BB328E}.Debug|x64.Build.0 = Debug|x64
+		{F3C9E944-A992-435A-9927-2A3BE5BB328E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3C9E944-A992-435A-9927-2A3BE5BB328E}.Debug|x86.Build.0 = Debug|Win32
+		{F3C9E944-A992-435A-9927-2A3BE5BB328E}.Release|x64.ActiveCfg = Release|x64
+		{F3C9E944-A992-435A-9927-2A3BE5BB328E}.Release|x64.Build.0 = Release|x64
+		{F3C9E944-A992-435A-9927-2A3BE5BB328E}.Release|x86.ActiveCfg = Release|Win32
+		{F3C9E944-A992-435A-9927-2A3BE5BB328E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E89BDFF5-8D48-4E8A-9E5F-4E00EA33687A}
+	EndGlobalSection
+EndGlobal
